@@ -13,7 +13,6 @@ public class CardGame {
     /**
      * @param args the command line arguments
      */
-    public class CardGame {
      public static void userInfo(){
         System.out.println("My name is pukhraj arora \nI am from india\n I like to play chess and watch anime" );
     }

@@ -6,14 +6,19 @@ import java.util.Scanner;
 /**
  * This class models a simple card guessing game
  * 
- * @author Paul Bonenfant
+ * @author Pukhraj arora
  */
 public class CardGame {
 
     /**
      * @param args the command line arguments
      */
+    public class CardGame {
+     public static void userInfo(){
+        System.out.println("My name is pukhraj arora \nI am from india\n I like to play chess and watch anime" );
+    }
     public static void main(String[] args) {
+        userInfo();
            Scanner input = new Scanner(System.in);
 
         // Create an array to hold 7 cards
@@ -61,5 +66,5 @@ public class CardGame {
         
         System.out.println(response);
     }
-    
+  
 }
